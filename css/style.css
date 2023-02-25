@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap');
+
+
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+#mainNav{
+    background-color: #abd1c6;
+}
+
+.header_section {
+    width: 100%;
+    float: left;
+    background-color: #004643;
+    height: 77vh;
+    padding-top: 80px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.header_bg{
+    background-color: #57ac49;
+}
+
+
+.navbar {
+    padding: 1rem 1rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 10px;
+    padding-left: 35px;
+    font-size: 18px;
+    color: #fffffe;
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    color: #001e1d;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.navbar-brand:hover{
+    color: #fffffe;
+}
+
+
+.nav-link {
+    font-family: Montserrat;
+    color: #001e1d;
+    font-weight: 400;
+    margin-left: 1em;
+    font-size: 1.2em;
+}
+
+
+.nav-item .nav-link:hover{
+    font-weight: bold;
+    border-bottom: 1px solid #004643;
+}
+
+.nav-item .contact {
+    font-weight: 400;
+    border: 2px solid #001e1d;
+    border-radius: 1em;
+} 
+
+
+.banner_section {
+    width: 100%;
+    float: left;
+    margin-top: 12em;
+}
+
+.banner_taital_main {
+    width: 100%;
+    float: left;
+}
+
+.banner_taital {
+    width: 100%;
+    float: left;
+    font-size: 4em;
+    color: #f7f7fd;
+    font-weight: bold;
+}
+
+.banner_text {
+    width: 100%;
+    float: left;
+    font-size: 1em;
+    font-family: Montserrat;
+    color: #f7f7fd;
+    margin: 0px;
+}
+
+.btn_main {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+
+.about_bt {
+    width: 8em;
+    float: left;
+}
+
+.about_bt a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    font-family: Montserrat;
+    color: #030101;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.about_bt a:hover {
+    color: #000;
+    background-color: #fcce2d;
+}
+.about_bt.active a {
+    color: #000;
+    background-color: #fcce2d;
+}
+
+.shop_bt {
+    width: 170px;
+    float: left;
+    margin-left: 15px;
+}
+
+.shop_bt a {
+    width: 100%;
+    font-family: Montserrat;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #191919;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.shop_bt a:hover {
+    color: #030101;
+    background-color: #fcce2d;
+}
+
+.image_1{
+    position: relative;
+    bottom: 26%;
+    right: 15%;
+}
+
+/* About us section css */
+
+.aboutUs{
+    background-color: #f2f7f5;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.aboutUs h4{
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #475d5b;
+}
+
+.aboutUs h1{
+    font-family: Montserrat;
+    font-weight: 600;
+    color: #475d5b;
+    margin-top: 1em;
+}
+
+.aboutUs h3{
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #475d5b;
+    margin-top: 1em;
+}
+
+.whyus{
+    margin-top: 20em;
+}
+
+.aboutUs .card {
+    width: 100%;
+    max-width: 600px;
+    height: 150px;
+    background: #004643;
+    /* border-radius: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    transition: 0.5s ease-in-out;
+    
+  }
+  
+.aboutUs .card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  
+  
+  
+.aboutUs .textBox {
+    width: calc(100% - 90px);
+    margin-left: 10px;
+    color: white;
+    font-family: 'Montserrat' sans-serif;
+  }
+  
+.aboutUs .textContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  
+.aboutUs .h1 {
+    font-family: Montserrat;
+    color: #fffffe;
+  }
+  
+.aboutUs .p {
+    font-size: 12px;
+    font-weight: light;
+    font-family: Montserrat;
+  }
+  
+  /* about us section end */
+
+/* 
+  faq section starts */
+
+  .faqSection{
+    background-color: #abd1c6;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+  .faq-heading {
+    font-family: Montserrat;   
+    font-weight: 600;
+    font-size: 19px;
+    text-indent: 20px;
+    color: #1d1d1d;
+  }
+  
+  .faq-text {
+    font-family: Montserrat;   
+    font-weight: 400;
+    color: #292929;
+    width:95%;
+    padding-left:20px;
+  }
+  
+  .faq {
+    width: 800px;
+    margin: 0 auto;
+    background-color:#004643;
+    border-radius: 4px;
+    position: relative;
+    border: 1px solid #E1E1E1;
+  }
+  .faq label {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    height: 56px;
+    padding-top:20px;
+   
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  .faq input[type="checkbox"] {
+    display: none;
+  }
+  
+  .faq .faq-arrow {
+    width: 5px;
+    height: 5px;
+    transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition: transform 0.8s, -webkit-transform 0.8s;
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    border-top: 2px solid rgba(0, 0, 0, 0.33);
+    border-right: 2px solid rgba(0, 0, 0, 0.33);
+    float: right;
+    position: relative;
+    top: -30px;
+    right: 27px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  
+   .faq input[type="checkbox"]:checked + label > .faq-arrow {
+    transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition: transform 0.8s, -webkit-transform 0.8s;
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+   .faq input[type="checkbox"]:checked + label {
+    display: block;
+    background: rgba(255,255,255,255) !important;
+    color: #4f7351;
+    height: 225px;
+    transition: height 0.8s;
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+   .faq input[type='checkbox']:not(:checked) + label {
+    display: block;
+    transition: height 0.8s;
+    height: 60px;
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+/* faq section ends */
+
+
+/* contact us section */
+
+  
+  /* Sticky footer style and color
+  -------------------------------------------------- */
+  footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #004643;
+    color: #bbb;
+  }
+
+  footer h5{
+    font-family: Montserrat;
+  }
+  
+  footer a {
+    color: #999;
+    text-decoration:none;
+    font-family: Montserrat;
+  }
+  
+  footer a:hover, footer a:focus {
+    font-family: Montserrat;
+    color: #aaa;
+    text-decoration:none;
+    border-bottom:1px dotted #999;
+  }
+  
+  footer .form-control {
+    font-family: Montserrat;
+      background-color: #ffffff;
+      box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+      border: none;
+      resize: none;
+      color: #d1d2d2;
+      padding: 0.7em 1em;
+  }
+
+  footer .btn {
+    font-family: Montserrat;
+    font-size: 15px;
+    background-color: #ffffff;
+    margin-top: 1em;
+    padding: 8px 25px;
+}
+
+  /* contact us end */
+
+
+@media(max-width: 1380px) {
+
+    .image_1{
+        position: relative;
+        height: 40px;
+        bottom: 98%;
+        right: 100%;
+    }
+    .header_section {
+        padding-top: 60px;
+    }
+
+}
+
+
+@media(max-width: 769px) {
+    .banner_section {
+        width: 100%;
+        float: left;
+        margin-top: 12em;
+    }
+    
+    .banner_taital_main {
+        width: 100%;
+        float: left;
+    }
+    
+    .banner_taital {
+        width: 100%;
+        float: left;
+        font-size: 4em;
+        color: #f7f7fd;
+        font-weight: bold;
+    }
+    
+    .banner_text {
+        width: 100%;
+        float: left;
+        font-size: 1em;
+        font-family: Montserrat;
+        color: #f7f7fd;
+        margin: 0px;
+    }
+    
+    .btn_main {
+        width: 100%;
+        float: left;
+        padding-top: 30px;
+    }
+
+    .image_1{
+        display: none;
+    }
+
+    .header_section {
+        padding-top: 0px;
+    }
+}

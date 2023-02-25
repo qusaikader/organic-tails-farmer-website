@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap');
+
+
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+#mainNav{
+    background-color: #abd1c6;
+}
+
+.header_section {
+    width: 100%;
+    float: left;
+    background-color: #004643;
+    height: 77vh;
+    padding-top: 80px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.header_bg{
+    background-color: #57ac49;
+}
+
+
+.navbar {
+    padding: 1rem 1rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 10px;
+    padding-left: 35px;
+    font-size: 18px;
+    color: #fffffe;
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    color: #001e1d;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.navbar-brand:hover{
+    color: #fffffe;
+}
+
+
+.nav-link {
+    font-family: Montserrat;
+    color: #001e1d;
+    font-weight: 400;
+    margin-left: 1em;
+    font-size: 1.2em;
+}
+
+
+.nav-item .nav-link:hover{
+    font-weight: bold;
+    border-bottom: 1px solid #004643;
+}
+
+.nav-item .contact {
+    font-weight: 400;
+    border: 2px solid #001e1d;
+    border-radius: 1em;
+} 
+
+
+.banner_section {
+    width: 100%;
+    float: left;
+    margin-top: 12em;
+}
+
+.banner_taital_main {
+    width: 100%;
+    float: left;
+}
+
+.banner_taital {
+    width: 100%;
+    float: left;
+    font-size: 4em;
+    color: #f7f7fd;
+    font-weight: bold;
+}
+
+.banner_text {
+    width: 100%;
+    float: left;
+    font-size: 1em;
+    font-family: Montserrat;
+    color: #f7f7fd;
+    margin: 0px;
+}
+
+.btn_main {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+}
+
+.about_bt {
+    width: 8em;
+    float: left;
+}
+
+.about_bt a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    font-family: Montserrat;
+    color: #030101;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.about_bt a:hover {
+    color: #000;
+    background-color: #fcce2d;
+}
+.about_bt.active a {
+    color: #000;
+    background-color: #fcce2d;
+}
+
+.shop_bt {
+    width: 170px;
+    float: left;
+    margin-left: 15px;
+}
+
+.shop_bt a {
+    width: 100%;
+    font-family: Montserrat;
+    float: left;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #191919;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.shop_bt a:hover {
+    color: #030101;
+    background-color: #fcce2d;
+}
+
+.image_1{
+    position: relative;
+    bottom: 26%;
+    right: 15%;
+}
+
+.problems{
+    padding-top: 50px;
+}
+
+
+.problems h1{
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.problems h3{
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.problems h5{
+    font-family: Montserrat;
+    font-weight: lighter;
+}
+
+
+ /* Sticky footer style and color
+  -------------------------------------------------- */
+  footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #004643;
+    color: #bbb;
+  }
+
+  footer h5{
+    font-family: Montserrat;
+  }
+  
+  footer a {
+    color: #999;
+    text-decoration:none;
+    font-family: Montserrat;
+  }
+  
+  footer a:hover, footer a:focus {
+    font-family: Montserrat;
+    color: #aaa;
+    text-decoration:none;
+    border-bottom:1px dotted #999;
+  }
+  
+  footer .form-control {
+    font-family: Montserrat;
+      background-color: #ffffff;
+      box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+      border: none;
+      resize: none;
+      color: #d1d2d2;
+      padding: 0.7em 1em;
+  }
+
+  footer .btn {
+    font-family: Montserrat;
+    font-size: 15px;
+    background-color: #ffffff;
+    margin-top: 1em;
+    padding: 8px 25px;
+}
+
+  /* contact us end */
